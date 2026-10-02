@@ -1,0 +1,32 @@
+.item-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100px;
+    max-width: 300px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    margin: 10px;
+}
+
+.item-div img{
+    width: 200px;
+    cursor: pointer;
+}
+
+.cart-sell-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.cart-sell-div button{
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ffff;
+    border: 0;
+}

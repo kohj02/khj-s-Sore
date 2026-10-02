@@ -1,0 +1,81 @@
+.header-main-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 15px 40px;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 20px;
+}
+
+.header-main-container strong {
+  font-size: 28px;
+  color: #7676f5;
+}
+
+
+.search-div {
+  display: flex;
+  align-items: center; 
+}
+
+.search-div input {
+  padding: 10px 15px;
+  width: 320px;
+  border-radius: 10px;
+  border: 3px solid rgb(112, 112, 241);
+  outline: none;
+  font-size: 15px;
+}
+
+.search-div img {
+  margin-left: 10px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+
+.icon-div{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.icon-div img{
+    display: flex;
+    gap: 20px;
+    width: 30px;
+}
+
+.login-reigter-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-reigter-div div{
+  min-height: 50px;
+  min-width: 100px;
+  text-align: center;
+  padding: 10px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.login-reigter-div button{
+  width: 150px;
+  height: 40px;
+  border: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.login-reigter-div div:hover{
+  box-shadow: 2px 3px 10px 1px ;
+}
+
+.regiter-btn,.login-btn{
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,9 @@
+.session-div{
+    width: 400px;
+    min-height: 300px;
+    border: 0;
+}
+
+.session-div textarea{
+    outline: none;
+}

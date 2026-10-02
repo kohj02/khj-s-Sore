@@ -1,0 +1,49 @@
+.LS-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    max-width:800px ;
+    margin: 0 auto;
+    border: 0;;
+}
+
+.input-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    
+}
+
+.input-row img{
+    width: 50px;
+}
+
+.input-row input{
+    width: 300px;
+    height: 50px;
+    text-indent:20px ;
+}
+
+.input-row input:focus{
+    outline: none;
+}
+
+.btn-div{
+    display: flex;
+    flex-direction: column;
+    min-height: 50px;
+    border: 0;
+    margin-top:30px ;
+}
+
+.btn-div button{
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+}

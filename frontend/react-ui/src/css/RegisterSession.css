@@ -1,0 +1,27 @@
+.rs-div{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    min-height: 100px;
+    border: 0;
+}
+
+.rs-div .register-btn{
+    min-height: 100px;
+}
+
+.register-btn{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border: 0;
+}
+
+.register-btn button{
+    border: 0;
+    height: 40px;
+    margin: 5px;
+}

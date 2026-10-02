@@ -1,0 +1,16 @@
+.addBtn{
+    display: block; /*요소를 블록 상자로 만르어 한줄을 혼자 차지하게한다*/
+    clear: both; /*flot적용한 구역을 무시*/
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    min-height: 30px;
+    border: 0;
+    
+}
+
+.addBtn button{
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
